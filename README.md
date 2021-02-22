@@ -2,14 +2,15 @@
 
 
 ### Regex used
-/\.(js|jsx)$/
-/\.html$/
-/\.(png|jpe?g|gif)$/i
-/\.s[ac]ss$/i
-/\.(js|jsx|ts|tsx)$/
+#### /\.(js|jsx)$/
+#### /\.html$/
+#### /\.(png|jpe?g|gif)$/i
+#### /\.s[ac]ss$/i
+#### /\.(js|jsx|ts|tsx)$/
 
 
 ### tsconfig.json file
+```jsx
 {
   "compilerOptions": {
     "target": "es5",
@@ -32,3 +33,4 @@
     "removeComments": true
   }
 }
+```
